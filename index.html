@@ -11,11 +11,11 @@
 </head>
 <body>
   <header>
-   <nav class="navbar-toggler my-flex-cont script-nav" id="my-nav-collaple">
+   <nav class="navbar-toggler my-flex-cont script-nav" id="my-nav-collapse">
     <h2 class="navbar-toggler-icon title-collapse"><a href="#">Newsweek</a></h2>
-     <div class="top-footer-a-container change padding">
+     <div class="top-footer-a-container change-padding">
       <a class="a-signin small-title" href="#"> SING IN </a>
-      <a class="a-signin small-title" href="#"> SUBSCRIBE </a>
+      <a class="a-signup small-title" href="#"> SUBSCRIBE </a>
     </div>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -26,15 +26,15 @@
  <nav class="navbar navbar-expand-lg  my-nav-style">
     <div class="navbar-toggler my-flex-cont cont-fix" data-toggle="collapse" data-target="#collapsibleNavbar">
      <h2 class="navbar-toggler-icon title-collapse"><a href="#">Newsweek</a></h2>
-      <div class="top-footer-a-container change padding">
+      <div class="top-footer-a-container change-padding">
         <a class="a-signin small-title" href="#"> SING IN </a>
-        <a class="a-signin small-title" href="#"> SUBSCRIBE </a>
+        <a class="a-signup small-title" href="#"> SUBSCRIBE </a>
     </div>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <i class="fa fa-bars icon-collapse"></i>
        </button>
-
+    </div>
     
     <div class="my-flex-cont collapse navbar-collapse">
      <time datetime="2019-10-10 20:00">Thu, Oct 13, 2019</time>
@@ -88,39 +88,44 @@
       <li class="nav-item">
         <a class="nav-link" href="#"> Vantage <spam class="se-only"></spam></a>
         </li>
-
-
-
-
-        </div>
-
-
-
-
-
-
+      <li class="nav-item">
+        <input class="input-nav" placeholder="Search" type="text"><i class="fa fa-search margin-left"></i>
+      </li>
     </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
   </nav>
+</header>
+<div class="container margin-top-query">
 
 
 
 
 
 
-  </header>
-  
+
+
+
+
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      var nav = document.getElementById("my-nav-collapse");
+      if ((document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) && document.body.clientWidth > 974) {
+        nav.style.display = "flex";
+        nav.style.width = "100%";
+        nav.style.background = "red";
+        nav.style.position = "fixed";
+        nav.style.top = "0";
+        nav.style.zIndex = "100";
+        nav.style.borderRadius = "0";
+      }else{
+        nav.style.display = "none";
+      }
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
