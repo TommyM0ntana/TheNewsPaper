@@ -253,3 +253,53 @@ img{
   font-size: 15px;
   font-weight: 400;
 }
+/* STYLES FOR ROW 1 COL 3 */
+
+.container-img-info{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 65px 75%;
+  grid-column-gap: 15px;
+}
+.container-img-info-second{
+  display: flex;
+  flex-direction: row;
+}
+.img-row-1-col-3{
+  flex: 1;
+}
+.more-width{
+  width: 130px;
+}
+.text-container{
+  flex: 1;
+  margin-left: 10px;
+}
+.a-row-1-col-3{
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  display: block;
+  margin-top: 5px;
+}
+.bigger-text{
+  font-size: 13px;
+}
+.even-bigger-text{
+  font-size: 15px;
+}
+.a-row-1-col-3:hover{
+  color: red;
+  text-decoration: none;
+}
+.h4-row-1-col-3{
+  font-size: 13px;
+  color: grey;
+}
+.advertisement-container{
+  background: #ebebeb;
+  padding: 15px;
+  max-width: 270px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
