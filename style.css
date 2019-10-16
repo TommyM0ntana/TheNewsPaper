@@ -478,3 +478,42 @@ img{
   margin-left: 20px;
   align-self: flex-end;
 }
+.li-footer{
+  display: inline;
+  margin-right: 15px;
+}
+.ul-footer{
+  display: inline;
+  flex: 1;
+  line-height: 0.9em;
+  font-size: 25px;
+  color: grey;
+  text-align: right;
+  margin-right: 20px;
+  align-self: flex-end;
+}
+.ul-footer-second{
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.5em;
+  flex: 2;
+}
+.ul-footer-second .li-footer span{
+  margin-left: 18px;
+  color: #e3e3e3;
+}
+.ul-footer-third{
+  font-size: 15px;
+  align-self: flex-start;
+  line-height: 1.5em;
+}
+.span-edit{
+  font-weight: bold;
+}
+.li-footer a{
+  color: grey;
+}
+.li-footer a:hover{
+  color: cornflowerblue;
+  text-decoration: none;
+}
