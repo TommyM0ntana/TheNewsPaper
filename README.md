@@ -12,4 +12,4 @@ Enter the following into your terminal ``` git@github.com:TommyM0ntana/the_next_
 - [Font Awesome Icons](https://fontawesome.com/start)
 - [Stickler](https://stickler-ci.com)
 
-This project is based on sample project from [The Odin Project]https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
+This project is based on sample project from [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
