@@ -1,9 +1,10 @@
 /* BODY */
 
-.body{
+.body {
   background: #e8e8e8;
 }
-time{
+
+time {
   color: white;
   display: inline-block;
   flex:1;
@@ -12,9 +13,11 @@ time{
   padding: 15px 0;
   margin-left: 10px;
 }
+
 img{
   width: 100%;
 }
+
 /* NAVBAR */
 .top-footer-a-container{
   display:inline-block;
@@ -111,7 +114,7 @@ img{
 .top-footer-a{
   color: white;
 }
-.top-footer-a:hover{  
+.top-footer-a:hover {
   color: white;
   text-decoration: none;
 }
