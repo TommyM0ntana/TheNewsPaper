@@ -274,7 +274,7 @@ img {
 .p-row-1-col-2 {
   font-size: 16px;
   color: grey;
-  padding: 0px 20px 10px;
+  padding: 0px 20px;
 }
 
 .a-row-1-col-2 {
@@ -454,7 +454,7 @@ img {
 .unique-span-borders {
   padding: 0 20px;
   border: 1px solid red;
-  box-shadow: -2px -2px 0px white, -4px -4px 0px red, -8px -8px 0px red;
+  box-shadow: -4px -4px 0px red, -6px -6px 0px white, -8px -8px 0px red;
 }
 
 .style-unique-span {
