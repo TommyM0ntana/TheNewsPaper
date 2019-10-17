@@ -112,6 +112,10 @@ img {
   color: white;
 }
 
+.li-footer a {
+  color: grey;
+}
+
 .title-collapse a:hover {
   text-decoration: none;
   color: red;
@@ -264,7 +268,7 @@ img {
 
 .h3-row1-col-2 {
   font-size: 18px;
-  padding: 20px 0px 0px 10px;
+  padding: 20px 0px 10px;
 }
 
 .p-row-1-col-2 {
@@ -276,7 +280,7 @@ img {
 .a-row-1-col-2 {
   background: #ced6ce;
   font-size: 12px;
-  margin: 0px 20px 20px 10px;
+  margin: 20px 20px 10px;
   padding: 5px;
   color: #242424;
   display: inline-block;
@@ -447,10 +451,6 @@ img {
   height: 17.9vw;
 }
 
-.shadow-icon {
-  box-shadow: 1px 1px 0px white, 4px 4px 0px red;
-}
-
 .unique-span-borders {
   padding: 0 20px;
   border: 1px solid red;
@@ -536,11 +536,6 @@ img {
   object-fit: cover;
 }
 
-.container-title-img-footer {
-  display: flex;
-  flex-direction: row;
-}
-
 .title-red-a {
   display: inline;
   padding: 0;
@@ -600,10 +595,6 @@ img {
 
 .span-edit {
   font-weight: bold;
-}
-
-.li-footer a {
-  color: grey;
 }
 
 .li-footer a:hover {
