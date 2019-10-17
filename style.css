@@ -117,7 +117,7 @@ img {
   color: red;
 }
 
-.top-footer-a{
+.top-footer-a {
   color: white;
 }
 
@@ -126,7 +126,7 @@ img {
   text-decoration: none;
 }
 
-.my-ul{
+.my-ul {
   background: white;
   clip-path: polygon(0 0, 91% 0, 93% 40%, 101% 40%, 100% 100%, 100% 100%, 0 100%);
   margin-top: -2px;
@@ -191,7 +191,7 @@ img {
 
  /* STYLES FOR THE ROWS 1 COL 1 */
 
- .h2-f-title {
+.h2-f-title {
   color: grey;
   font-size: 17px;
   margin-top: 15px;
@@ -335,6 +335,7 @@ img {
 .even-bigger-text {
   font-size: 15px;
 }
+
 .a-row-1-col-3:hover {
   color: red;
   text-decoration: none;
@@ -421,7 +422,7 @@ img {
 }
 
 .button-unique-img:hover {
-  background-color:#949494;
+  background-color: #949494;
 }
 
 .n-icon-reversed {
@@ -438,7 +439,7 @@ img {
 }
 
 .margin-top-big {
-  margin-top:30px;
+  margin-top: 30px;
 }
 
 .img-row-2 {
@@ -453,7 +454,7 @@ img {
 .unique-span-borders {
   padding: 0 20px;
   border: 1px solid red;
-  box-shadow: -2px -2px 0px white, -4px -4px 0px red,-6px -6px 0px white, -8px -8px 0px red;
+  box-shadow: -2px -2px 0px white, -4px -4px 0px red, -6px -6px 0px white, -8px -8px 0px red;
 }
 
 .style-unique-span {
@@ -481,7 +482,7 @@ img {
 
 .container-img-abs {
   position: relative;
-  width:265px;
+  width: 265px;
   height: 250px;
 }
 
@@ -525,7 +526,7 @@ img {
   flex-direction: row;
 }
 
-.subs-button:hover{
+.subs-button:hover {
   background-color: #d10000;
 }
 
