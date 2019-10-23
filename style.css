@@ -610,7 +610,8 @@ img {
   color: cornflowerblue;
   text-decoration: none;
 }
-@media( max-width: 991px){
+
+@media (max-width: 991px){
   .margin-top-lg {
     margin-top: 30px;
   }
@@ -619,7 +620,7 @@ img {
   }
 }
 
-@media( max-width: 770px) {
+@media (max-width: 770px) {
   .container-title-img-footer{
     flex-direction: column;
   }
@@ -659,7 +660,7 @@ img {
   }
 }
 
-@media( max-width: 500px) {
+@media (max-width: 500px) {
   .icon-collapse {
     font-size: 5.5vw;
   }
@@ -669,7 +670,7 @@ img {
   .a-singup {
     font-size: 3vw;
   }
-  .title-collapse{
+  .title-collapse {
     font-size: 5vw;
   }
 }
