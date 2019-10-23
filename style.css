@@ -81,7 +81,7 @@ img {
   color: white;
 }
 
-.a-singup {
+.a-signup {
   background: white;
   padding: 2px 8px;
   font-weight: bold;
@@ -212,6 +212,16 @@ img {
   display: block;
   line-height: 1em;
 }
+
+.a-row-4 {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+  line-height: 1em;
+  margin-top: -20px;
+}
+
 
 .a-row-1:hover {
   color: black;
@@ -600,3 +610,71 @@ img {
   color: cornflowerblue;
   text-decoration: none;
 }
+@media( max-width: 991px){
+  .margin-top-lg {
+    margin-top: 30px;
+  }
+  .margin-top-query {
+    margin-top: 40px;
+  }
+}
+
+@media( max-width: 770px) {
+  .container-title-img-footer{
+    flex-direction: column;
+  }
+  .title-red-a {
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-bottom: 7px;
+  }
+  .text-next-title {
+    align-self: flex-start;
+    margin-bottom: 7px;
+  }
+  .ul-footer {
+    align-self: flex-start;
+    padding-left: 7px;
+  }
+  .ul-footer-third {
+    text-align: left;
+  }
+  .img-row-2 {
+    object-fit: cover;
+    height: auto;
+   display: flex;
+  }
+  .margin-top-media {
+    margin-top: 30px;
+  }
+  .container-img-abs-text {
+    flex-direction: column;
+    text-align: center;
+  }
+  .container-img-abs {
+    margin: 0 auto;
+  }
+  .last-img-no-abs {
+    width: 100%;
+  }
+}
+
+@media( max-width: 500px) {
+  .icon-collapse {
+    font-size: 5.5vw;
+  }
+  .a-signin {
+    font-size: 3vw;
+  }
+  .a-singup {
+    font-size: 3vw;
+  }
+  .title-collapse{
+    font-size: 5vw;
+  }
+}
+.row {
+  box-sizing: border-box;
+}
+
+
