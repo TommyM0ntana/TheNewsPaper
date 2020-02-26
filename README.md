@@ -1,15 +1,76 @@
-# News Week Clone_Page
-This project consists of building an HTML document that matches the appearance of News Week Page
+# Mockup NewsPaper Prototype
 
-Code Review: []()
+This project consists of building a prototype from scratch whit HTML, CSS(360°) web page that matches whit the news paper web industry.
 
-# How to clone
-Enter the following into your terminal ``` git@github.com:TommyM0ntana/the_next_web.git```
+
+## Main Page whit Navbar
+
+![screenshot](./images/newsmain.png)
+
+
+<br>
+<br>
+
+## Articles section
+
+![screenshot](./images/articles.png)
+
+
+<br>
+<br>
+
+## Magazine section
+
+![screenshot](./images/magazin.png)
+
+
+<br>
+<br>
+
+## News section
+
+![screenshot](./images/section2.png)
+
+
+<br>
+<br>
+
+
+## Footer
+
+![screenshot](./images/footer.png)
+
+
+<br>
+<br>
+
+Additional description about the project and its features.
+
 
 # Technologies used
 - CSS3
 - HTML5
 - [Font Awesome Icons](https://fontawesome.com/start)
 - [Stickler](https://stickler-ci.com)
+- [Githack](https://raw.githack.com/)
 
-This project is based on sample project from [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
+## Live Demo
+
+[The App]()
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used.
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
