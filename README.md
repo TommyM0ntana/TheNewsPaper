@@ -56,7 +56,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[The App]()
+[The App](https://raw.githack.com/TommyM0ntana/TheNewsPaper/master/index.html)
 
 ## 🤝 Contributing
 
