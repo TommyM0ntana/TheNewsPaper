@@ -1,6 +1,6 @@
 # Mockup NewsPaper Prototype
 
-This project consists of building a prototype from scratch whit HTML, CSS(360°) web page that matches whit the news paper web industry.
+This project consists of building a prototype from scratch with HTML, CSS(360°) web page that matches whit the news paper web industry.
 
 
 ## Main Page whit Navbar
